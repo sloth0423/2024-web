@@ -19,7 +19,6 @@ app.get('/lotto-numbers',(req,res)=>{
            numbers.splice(selectedNumber,1);
         }
         
-
         randomNumbers = randomNumbers.sort(function (a, b) {
             if (a - b > 0) {
               return 1;
